@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <title>Super Mario Bros. O Filme</title>
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+
+    <div class="header">
+        <img src="./img/logo-header.png" alt="logo mario">
+        <a>Home</a>
+        <a href="https://www.linkedin.com/in/alexsandro-da-silva-a3bb97165/" target="_blank">Meu Linkedin</a>
+        <a href="./img/Capa do Filme Super Mario Bros.png" alt="capa-do-filme" height="600px">Capa do Filme</a>
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt="logo do mario bros" class="logo-mario">
+            <p> Encanadores Mario & Luigi - Resolvendo Seus Problemas Com Estilo</p>
+            <p>Você já se encontrou em uma situação de emergência com encamento? Vazamentos inesperados,
+                canos entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o
+                dia!
+                Apresentamos a vocês
+                os encanadores mais famoso do Reino dos Cogumelos Mario & Luigi!</p>
+
+            <button onclick="mostraForm()">Entre em Contato</button>
+        </div>
+
+
+        <div>
+            <img src="./img/mario.png" alt="logo mario e luigi" class="imagem-mario-luigi">
+        </div>
+    </div>
+
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://api.whatsapp.com/send?phone=5511967072184&text=Ol%C3%A1,%20Meu%20nome%20%C3%A9%20Alexsandro%20da%20Silva,%20estou%20em%20Fase%20de%20Transi%C3%A7%C3%A3o%20de%20Carreira%20como%20Desenvolvedor%20Web%20Front-End%20na%20%C3%A1rea%20da%20Programa%C3%A7%C3%A3o%20e%20segue%20minhas%20redes;%20Linkedin:%20www.linkedin.com/in/alexsandro-da-silva-a3bb97165%20e%20GitHub:%20https://github.com/alx-8914."
+        class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="link para o whatsapp">
+    </a>
+
+    <form class="formulario-fale-conosco" action="https://formcarry.com/s/L9WL6wi9jAk" method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Seu nome" type=text name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite seu problema aqui..." name="duvidas"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+    </form>
+</body>
+<script src="scripts.js"></script>
+
+
+
+</html>
