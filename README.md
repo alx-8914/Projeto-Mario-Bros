@@ -19,7 +19,7 @@ Também usadas as funções na página como: formulário para entrar em contato,
 <p>Modo Desktop & Responsidade Mobile</p>
 <img src="https://github.com/alx-8914/Projeto-Mario-Bros/blob/main/img/Modo%20de%20tela%20Desktop.png?raw=true"/>
 <img src="https://github.com/alx-8914/Projeto-Mario-Bros/blob/main/img/Modo%20de%20tela%20Responsiva.png?raw=true"/>
-<p>Formulário:</p>
+<p>Formulário: " Preenchendo o Formulário, você será direcionado ao E-mail para Orçamento dos Irmãos Mario&Luigi".</p>
 <img src="https://github.com/alx-8914/Projeto-Mario-Bros/blob/main/img/Formul%C3%A1rio%20%20.png?raw=true"/>
 <p>Links para acessar o Whatsapp:</p>
 <img src="https://github.com/alx-8914/Projeto-Mario-Bros/blob/main/img/Link%20para%20acessar%20o%20whatsapp.png?raw=true"/>
